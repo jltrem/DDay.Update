@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDay.Update", "DDay.Update\DDay.Update.csproj", "{E88AF6FD-147D-429B-8EAF-718170D4342D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDay.Update.Bootstrap", "DDay.Update.Bootstrap\DDay.Update.Bootstrap.csproj", "{918719A2-618E-4FCB-875E-A757D23F5627}"
