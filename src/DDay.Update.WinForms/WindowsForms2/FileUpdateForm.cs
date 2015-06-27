@@ -40,11 +40,11 @@ namespace DDay.Update.WinForms
                 {
                     if (DeploymentManifest.Description != null)
                     {
-                        Text = " Updating " + DeploymentManifest.Description.Product + "...";
+                        SetText(" Updating " + DeploymentManifest.Description.Product + "...");
                     }
                     else
                     {
-                        Text = " Updating...";
+                        SetText(" Updating...");
                     }
                 }
             }
@@ -116,6 +116,18 @@ namespace DDay.Update.WinForms
                         (CompletedUpdateSize + e.BytesReceived) / ts.TotalSeconds,
                         "0.0") +
                     "/sec)";
+            }
+        }
+
+        public void SetText(string txt)
+        {
+            if (InvokeRequired)
+            {
+                Invoke((MethodInvoker) delegate { Text = txt; });
+            }
+            else
+            {
+                Text = txt;
             }
         }
 
