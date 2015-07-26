@@ -35,12 +35,12 @@ namespace DDay.Update.WinForms
             // 
             // progressBar
             // 
-            this.progressBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.progressBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.progressBar.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.progressBar.Location = new System.Drawing.Point(14, 51);
+            this.progressBar.Location = new System.Drawing.Point(12, 55);
             this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(385, 18);
+            this.progressBar.Size = new System.Drawing.Size(330, 17);
             this.progressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar.TabIndex = 0;
             // 
@@ -48,30 +48,28 @@ namespace DDay.Update.WinForms
             // 
             this.lblBytes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblBytes.AutoSize = true;
-            this.lblBytes.Location = new System.Drawing.Point(14, 34);
+            this.lblBytes.Location = new System.Drawing.Point(12, 32);
             this.lblBytes.Name = "lblBytes";
-            this.lblBytes.Size = new System.Drawing.Size(0, 14);
+            this.lblBytes.Size = new System.Drawing.Size(0, 13);
             this.lblBytes.TabIndex = 1;
             // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(14, 9);
+            this.lblTitle.Location = new System.Drawing.Point(12, 8);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(132, 15);
+            this.lblTitle.Size = new System.Drawing.Size(123, 16);
             this.lblTitle.TabIndex = 2;
             this.lblTitle.Text = "Downloading files...";
             // 
             // FileUpdateForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(413, 89);
+            this.ClientSize = new System.Drawing.Size(354, 83);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.lblBytes);
             this.Controls.Add(this.progressBar);
-            this.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FileUpdateForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
